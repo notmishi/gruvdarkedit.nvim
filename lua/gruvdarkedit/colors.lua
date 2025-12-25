@@ -1,0 +1,85 @@
+local M = {}
+
+M.palettes = {
+	gruvdarkedit = {
+		-- Base
+		fg = "#D6CFC4",
+		fg_light = "#E6E3DE",
+		fg_search = "#E6E3DE",
+		fg_search2 = "#212121",
+
+		blue = "#579DD4",
+		blue_dark = "#2A404F",
+		red = "#E16464",
+		red_dark = "#B55353",
+		green = "#72BA62",
+		pink = "#D159B6",
+		purple = "#9266DA",
+		aqua = "#00A596",
+		orange = "#D19F66",
+		grey = "#575757",
+		grey_light = "#9D9A94",
+
+		-- Background
+		bg0 = "#1E1E1E",
+		bg1 = "#232323",
+		bg2 = "#252525",
+		bg3 = "#303030",
+		bg4 = "#323232",
+		bg5 = "#373737",
+		bg6 = "#3C3C3C",
+		bg7 = "#424242",
+
+		-- Extras
+		none = "NONE",
+		line_nr = "#545454",
+		cursor_line = "#B1AFA8",
+
+		diff_add = "#31392b",
+		diff_delete = "#382b2c",
+		diff_change = "#1c3448",
+		diff_text = "#2c5372",
+	},
+
+	gruvdarkedit_light = {
+		-- Base
+		fg = "#101010",
+		fg_light = "#000000",
+		fg_search = "#F2EEDE",
+		fg_search2 = "#C6C3B7",
+
+		blue = "#0F5289",
+		blue_dark = "#044272",
+		red = "#9F0202",
+		red_dark = "#AD4B4B",
+		green = "#006C00",
+		pink = "#910E79",
+		purple = "#5D4A8A",
+		aqua = "#017F75",
+		orange = "#AE5F05",
+		grey = "#707070",
+		grey_light = "#8D8A85",
+
+		-- Background
+		bg0 = "#F7F5EA",
+		bg1 = "#EDEDDF",
+		bg2 = "#E5E5DA",
+		bg3 = "#D0D0C6",
+		bg5 = "#CCCCC4",
+		bg4 = "#C5C5BB",
+		bg6 = "#C0C0B6",
+		bg7 = "#B8B8AE",
+
+		-- Extras
+		none = "NONE",
+		line_nr = "#8D8A85",
+		cursor_line = "#212121",
+
+		diff_add = "#DAF6DC",
+		diff_delete = "#F4D3D6",
+		diff_change = "#DFEAFA",
+		diff_text = "#CAD3E0",
+	},
+}
+
+return M
